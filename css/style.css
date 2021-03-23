@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  font: 17x/1.5 Verdana, Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #ffffff 0%, #e5e5e5 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  #ffffff 0%,#e5e5e5 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  #ffffff 0%,#e5e5e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  box-shadow: 0 10px 10px -5px #6e6e6e;
+  font-family: 'Palatino Linotype', 'Book Antiqua', serif;
+}
+
+h1 {
+  margin-top: 0;
+  padding: 1.5rem;
+}
+
+main {
+  padding: 0 2rem;
+  margin: 0 auto 0;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 5rem;
+}
+
+li {
+  align-items: center;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: .5rem;
+  padding: .5rem;
+}
+
+li a {
+  background-color: #ddd;
+  border: 2px solid #333;
+  border-radius: 10px;
+  color: #333;
+  font-family: 'Palatino Linotype';
+  padding: .25rem .5rem;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #333;
+  margin-bottom: 0;
+  padding: 1rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
