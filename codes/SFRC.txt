@@ -1,5 +1,5 @@
 --1.	From the rate table, list the average rental rate for each type of property.
---(Notice this is not what is was rented for, but what could be charged throughout the year).
+
 MariaDB [SFRC]> CREATE OR REPLACE VIEW view1_average_rate AS
     -> SELECT condo_type,
     -> ROUND(AVG(rate_january + rate_april + rate_june + rate_september + rate_november)/5, 2) AS average_rental_rate

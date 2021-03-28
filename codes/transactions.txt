@@ -1,26 +1,6 @@
 /* -----------------------------------
-Start file for Exercise 1, page 444
-	Exercise description from book
 	Write a script that creates and calls a stored procedure named test. This procedure should include a set of three SQL statements coded as a transaction to reflect the following change:
-
-	United Parcel Service has been purchased by Federal Express Corporation and the new company is named FedUP.
-
-	A good first step is to look at the data you will be working with.
-
-	These two statements will show you the vendors and invoices that are in scope for this exercise (you can highlight and run even though they are in a comment):
-
-		select * from vendors where vendor_id in(122,123);
-			122	United Parcel Service -- change to FedUP
-			123	Federal Express Corporation
-
-		select * from invoices where vendor_id in(122,123);
-
-	a) Rename one of the vendors and
-	b) delete the other after updating the vendor_id column in the Invoices table.
-
-	If these statements execute successfully, commit the changes. Otherwise, roll back the changes.
-
-   ------------------------------steve chevalier 2/4/2020 */
+   ------------------------------ */
 USE ap;
 
 DROP PROCEDURE IF EXISTS test;
