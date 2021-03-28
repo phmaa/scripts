@@ -27,6 +27,7 @@ h1 {
 }
 
 main {
+  height: 95%vw;
   padding: 0 2rem;
   margin: 0 auto 0;
 }
